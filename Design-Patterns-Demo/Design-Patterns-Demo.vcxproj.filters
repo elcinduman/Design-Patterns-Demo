@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="mediator_pattern">
+      <UniqueIdentifier>{d2c9d4da-02d6-4d59-8c58-133f6dc98283}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="abstract_factory_pattern">
+      <UniqueIdentifier>{3a59c66c-3931-482d-ac08-8657eab5cd3a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="interpreter_pattern">
+      <UniqueIdentifier>{c8f72ead-cab5-4cd9-bbc1-3aca6b6377c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="command_pattern">
+      <UniqueIdentifier>{793b37db-6155-432e-89cc-d94196726381}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="observer_pattern">
+      <UniqueIdentifier>{16537e72-3a7d-4d36-8fc5-16f13fe4dce9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Design-Patterns-Demo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="mediator.cpp">
+      <Filter>mediator_pattern</Filter>
+    </ClCompile>
+    <ClCompile Include="NPCFactory.cpp">
+      <Filter>abstract_factory_pattern</Filter>
+    </ClCompile>
+    <ClCompile Include="interpreter.cpp">
+      <Filter>interpreter_pattern</Filter>
+    </ClCompile>
+    <ClCompile Include="command.cpp">
+      <Filter>command_pattern</Filter>
+    </ClCompile>
+    <ClCompile Include="observer.cpp">
+      <Filter>observer_pattern</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="mediator.h">
+      <Filter>mediator_pattern</Filter>
+    </ClInclude>
+    <ClInclude Include="NPCFactory.h">
+      <Filter>abstract_factory_pattern</Filter>
+    </ClInclude>
+    <ClInclude Include="interpreter.h">
+      <Filter>interpreter_pattern</Filter>
+    </ClInclude>
+    <ClInclude Include="command.h">
+      <Filter>command_pattern</Filter>
+    </ClInclude>
+    <ClInclude Include="observer.h">
+      <Filter>observer_pattern</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
